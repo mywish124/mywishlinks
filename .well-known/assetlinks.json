@@ -3,7 +3,9 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.wish.mywishlist",
-    "sha256_cert_fingerprints": ["6F:46:FA:ED:2D:04:9A:38:44:F7:2E:E1:4C:BD:D6:A2:D3:43:F4:FB:AD:6F:3F:82:08:BE:C7:B7:97:1C:22:CB", "F0:C2:70:C5:7F:24:61:20:C1:7A:12:10:B5:79:DD:6C:D7:10:D3:CE:3F:AA:4D:59:90:EA:D7:34:BB:2E:C7:B5
-"]
+    "sha256_cert_fingerprints": [
+      "6F:46:FA:ED:2D:04:9A:38:44:F7:2E:E1:4C:BD:D6:A2:D3:43:F4:FB:AD:6F:3F:82:08:BE:C7:B7:97:1C:22:CB", 
+      "F0:C2:70:C5:7F:24:61:20:C1:7A:12:10:B5:79:DD:6C:D7:10:D3:CE:3F:AA:4D:59:90:EA:D7:34:BB:2E:C7:B5"
+    ]
   }
 }]
