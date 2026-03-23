@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>МайВиш — Переход в магазин</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background: #0D1117; color: white; }
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 2s linear infinite; margin: 20px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Открываем профиль в MyWish...</h2>
+    <div class="loader"></div>
+    <p>Если у вас не установлено приложение, вы будете перенаправлены в <br> 
+       <a id="storeLink" href="https://www.rustore.ru/catalog/app/com.wish.mywishlist">RuStore</a></p>
+
+    <script>
+        var currentUrl = window.location.href;
+        
+        var ruStoreUrl = "https://www.rustore.ru/catalog/app/com.wish.mywishlist";
+
+        setTimeout(function() {
+            window.location.href = ruStoreUrl;
+        }, 2000);
+    </script>
+</body>
+</html>
